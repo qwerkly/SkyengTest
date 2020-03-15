@@ -32,7 +32,6 @@ class WordsVC: UIViewController {
             guard let self = self, self.currentSearch == search else { return }
             
             let words = words ?? []
-            self.words += words
             
             if words.count < self.pageSize {
                 self.isAllLoaded = true
@@ -41,6 +40,8 @@ class WordsVC: UIViewController {
                     self.tableView.reloadData()
                 }
             }
+            
+            self.words += words
             
             error?.present()
         }
