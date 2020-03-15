@@ -3,21 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14D46BF6507DF62D05DA9C1B /* libPods-SkyengTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D4AAAFAB7FE7C3BD702DA6 /* libPods-SkyengTest.a */; };
+		3B4E0BA5745025F88205313C /* Pods_SkyengTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FBDC7CD69A509BBDC9B071 /* Pods_SkyengTestTests.framework */; };
+		ED1AE3E3241C38E20034C8E3 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AE3E2241C38E20034C8E3 /* APIRouter.swift */; };
+		ED1AE3E5241C39760034C8E3 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AE3E4241C39760034C8E3 /* APIClient.swift */; };
+		ED1AE3E8241CBD100034C8E3 /* JSONDecoder_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AE3E7241CBD100034C8E3 /* JSONDecoder_ext.swift */; };
+		ED1AE3EA241CD2070034C8E3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AE3E9241CD2070034C8E3 /* Config.swift */; };
+		ED1AE3EC241D402A0034C8E3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AE3EB241D402A0034C8E3 /* Alert.swift */; };
+		ED1AE3EE241D40500034C8E3 /* UIApplication_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AE3ED241D40500034C8E3 /* UIApplication_ext.swift */; };
+		ED1AE3F0241D68480034C8E3 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1AE3EF241D68480034C8E3 /* DetailVC.xib */; };
+		ED1AE3F2241D7CDD0034C8E3 /* UIImageView_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AE3F1241D7CDD0034C8E3 /* UIImageView_ext.swift */; };
+		ED1AE3FB241E59D70034C8E3 /* MeaningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AE3F9241E59D70034C8E3 /* MeaningCell.swift */; };
+		ED1AE3FC241E59D70034C8E3 /* MeaningCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1AE3FA241E59D70034C8E3 /* MeaningCell.xib */; };
+		ED1AE405241E5EFF0034C8E3 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AE403241E5EFF0034C8E3 /* LoadingCell.swift */; };
+		ED1AE406241E5EFF0034C8E3 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1AE404241E5EFF0034C8E3 /* LoadingCell.xib */; };
+		ED1AE40A241E790D0034C8E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED1AE409241E790D0034C8E3 /* README.md */; };
+		ED1AE412241EA2120034C8E3 /* SkyengTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1AE411241EA2120034C8E3 /* SkyengTestTests.swift */; };
 		ED78342E241BBF0100CF2334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78342D241BBF0100CF2334 /* AppDelegate.swift */; };
-		ED783430241BBF0100CF2334 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78342F241BBF0100CF2334 /* SceneDelegate.swift */; };
-		ED783432241BBF0100CF2334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED783431241BBF0100CF2334 /* ViewController.swift */; };
+		ED783432241BBF0100CF2334 /* WordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED783431241BBF0100CF2334 /* WordsVC.swift */; };
 		ED783435241BBF0100CF2334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED783433241BBF0100CF2334 /* Main.storyboard */; };
 		ED783437241BBF0400CF2334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED783436241BBF0400CF2334 /* Assets.xcassets */; };
 		ED78343A241BBF0400CF2334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED783438241BBF0400CF2334 /* LaunchScreen.storyboard */; };
-		ED783445241BBF0400CF2334 /* SkyengTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED783444241BBF0400CF2334 /* SkyengTestTests.swift */; };
+		ED783451241BC75C00CF2334 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED783450241BC75C00CF2334 /* DetailVC.swift */; };
+		EDD77858241C0DBD00FEB437 /* WordsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD77857241C0DBD00FEB437 /* WordsService.swift */; };
+		EDD7785F241C127A00FEB437 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD7785E241C127A00FEB437 /* Word.swift */; };
+		EDD77861241C2DE000FEB437 /* Meaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD77860241C2DE000FEB437 /* Meaning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ED783441241BBF0400CF2334 /* PBXContainerItemProxy */ = {
+		ED1AE414241EA2120034C8E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ED783422241BBF0000CF2334 /* Project object */;
 			proxyType = 1;
@@ -27,43 +45,145 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27D4AAAFAB7FE7C3BD702DA6 /* libPods-SkyengTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyengTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		293C379CFA80A5775013F015 /* Pods-SkyengTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyengTest.release.xcconfig"; path = "Target Support Files/Pods-SkyengTest/Pods-SkyengTest.release.xcconfig"; sourceTree = "<group>"; };
+		413CC5BDE48DD0A16FE68765 /* Pods-SkyengTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyengTest.debug.xcconfig"; path = "Target Support Files/Pods-SkyengTest/Pods-SkyengTest.debug.xcconfig"; sourceTree = "<group>"; };
+		54FBDC7CD69A509BBDC9B071 /* Pods_SkyengTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyengTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF17402BF5B49628FC02165 /* Pods-SkyengTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyengTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SkyengTestTests/Pods-SkyengTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A2F93339850C61D32A8DFA1 /* Pods-SkyengTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyengTestTests.release.xcconfig"; path = "Target Support Files/Pods-SkyengTestTests/Pods-SkyengTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED1AE3E2241C38E20034C8E3 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		ED1AE3E4241C39760034C8E3 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		ED1AE3E7241CBD100034C8E3 /* JSONDecoder_ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoder_ext.swift; sourceTree = "<group>"; };
+		ED1AE3E9241CD2070034C8E3 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		ED1AE3EB241D402A0034C8E3 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		ED1AE3ED241D40500034C8E3 /* UIApplication_ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication_ext.swift; sourceTree = "<group>"; };
+		ED1AE3EF241D68480034C8E3 /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		ED1AE3F1241D7CDD0034C8E3 /* UIImageView_ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView_ext.swift; sourceTree = "<group>"; };
+		ED1AE3F9241E59D70034C8E3 /* MeaningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningCell.swift; sourceTree = "<group>"; };
+		ED1AE3FA241E59D70034C8E3 /* MeaningCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeaningCell.xib; sourceTree = "<group>"; };
+		ED1AE403241E5EFF0034C8E3 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		ED1AE404241E5EFF0034C8E3 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		ED1AE409241E790D0034C8E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ED1AE40F241EA2120034C8E3 /* SkyengTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyengTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1AE411241EA2120034C8E3 /* SkyengTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyengTestTests.swift; sourceTree = "<group>"; };
+		ED1AE413241EA2120034C8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1D9B66241EAF410088C0FA /* libAlamofire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED78342A241BBF0000CF2334 /* SkyengTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyengTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED78342D241BBF0100CF2334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED78342F241BBF0100CF2334 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED783431241BBF0100CF2334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED783431241BBF0100CF2334 /* WordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsVC.swift; sourceTree = "<group>"; };
 		ED783434241BBF0100CF2334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED783436241BBF0400CF2334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED783439241BBF0400CF2334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED78343B241BBF0400CF2334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED783440241BBF0400CF2334 /* SkyengTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyengTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED783444241BBF0400CF2334 /* SkyengTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyengTestTests.swift; sourceTree = "<group>"; };
-		ED783446241BBF0400CF2334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED783450241BC75C00CF2334 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		EDD77857241C0DBD00FEB437 /* WordsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsService.swift; sourceTree = "<group>"; };
+		EDD7785E241C127A00FEB437 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		EDD77860241C2DE000FEB437 /* Meaning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meaning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		ED1AE40C241EA2120034C8E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4E0BA5745025F88205313C /* Pods_SkyengTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED783427241BBF0000CF2334 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED78343D241BBF0400CF2334 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				14D46BF6507DF62D05DA9C1B /* libPods-SkyengTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		227CC6089958B076A49B0275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D9B66241EAF410088C0FA /* libAlamofire.a */,
+				27D4AAAFAB7FE7C3BD702DA6 /* libPods-SkyengTest.a */,
+				54FBDC7CD69A509BBDC9B071 /* Pods_SkyengTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56A6A7EC16BD1BD3C076FF6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				413CC5BDE48DD0A16FE68765 /* Pods-SkyengTest.debug.xcconfig */,
+				293C379CFA80A5775013F015 /* Pods-SkyengTest.release.xcconfig */,
+				6AF17402BF5B49628FC02165 /* Pods-SkyengTestTests.debug.xcconfig */,
+				9A2F93339850C61D32A8DFA1 /* Pods-SkyengTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED1AE3E1241C38CC0034C8E3 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				ED1AE3E9241CD2070034C8E3 /* Config.swift */,
+				ED1AE3E2241C38E20034C8E3 /* APIRouter.swift */,
+				ED1AE3E4241C39760034C8E3 /* APIClient.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		ED1AE3E6241CBD000034C8E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED1AE3EB241D402A0034C8E3 /* Alert.swift */,
+				ED1AE3E7241CBD100034C8E3 /* JSONDecoder_ext.swift */,
+				ED1AE3ED241D40500034C8E3 /* UIApplication_ext.swift */,
+				ED1AE3F1241D7CDD0034C8E3 /* UIImageView_ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED1AE3F3241E2B690034C8E3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED1AE3F9241E59D70034C8E3 /* MeaningCell.swift */,
+				ED1AE3FA241E59D70034C8E3 /* MeaningCell.xib */,
+				ED1AE403241E5EFF0034C8E3 /* LoadingCell.swift */,
+				ED1AE404241E5EFF0034C8E3 /* LoadingCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ED1AE3F4241E2B800034C8E3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ED1AE3F3241E2B690034C8E3 /* Cells */,
+				ED1AE3E6241CBD000034C8E3 /* Extensions */,
+				EDD7785D241C125E00FEB437 /* Models */,
+				EDD7785C241C123500FEB437 /* Services */,
+				ED1AE3E1241C38CC0034C8E3 /* Api */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ED1AE410241EA2120034C8E3 /* SkyengTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1AE411241EA2120034C8E3 /* SkyengTestTests.swift */,
+				ED1AE413241EA2120034C8E3 /* Info.plist */,
+			);
+			path = SkyengTestTests;
+			sourceTree = "<group>";
+		};
 		ED783421241BBF0000CF2334 = {
 			isa = PBXGroup;
 			children = (
+				ED1AE409241E790D0034C8E3 /* README.md */,
 				ED78342C241BBF0000CF2334 /* SkyengTest */,
-				ED783443241BBF0400CF2334 /* SkyengTestTests */,
+				ED1AE410241EA2120034C8E3 /* SkyengTestTests */,
 				ED78342B241BBF0000CF2334 /* Products */,
+				56A6A7EC16BD1BD3C076FF6C /* Pods */,
+				227CC6089958B076A49B0275 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				ED78342A241BBF0000CF2334 /* SkyengTest.app */,
-				ED783440241BBF0400CF2334 /* SkyengTestTests.xctest */,
+				ED1AE40F241EA2120034C8E3 /* SkyengTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,33 +199,72 @@
 		ED78342C241BBF0000CF2334 /* SkyengTest */ = {
 			isa = PBXGroup;
 			children = (
-				ED78342D241BBF0100CF2334 /* AppDelegate.swift */,
-				ED78342F241BBF0100CF2334 /* SceneDelegate.swift */,
-				ED783431241BBF0100CF2334 /* ViewController.swift */,
+				ED783450241BC75C00CF2334 /* DetailVC.swift */,
+				ED1AE3EF241D68480034C8E3 /* DetailVC.xib */,
+				ED783431241BBF0100CF2334 /* WordsVC.swift */,
 				ED783433241BBF0100CF2334 /* Main.storyboard */,
-				ED783436241BBF0400CF2334 /* Assets.xcassets */,
-				ED783438241BBF0400CF2334 /* LaunchScreen.storyboard */,
-				ED78343B241BBF0400CF2334 /* Info.plist */,
+				ED1AE3F4241E2B800034C8E3 /* Common */,
+				ED78344F241BBF1A00CF2334 /* Supporting Files */,
 			);
 			path = SkyengTest;
 			sourceTree = "<group>";
 		};
-		ED783443241BBF0400CF2334 /* SkyengTestTests */ = {
+		ED78344F241BBF1A00CF2334 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ED783444241BBF0400CF2334 /* SkyengTestTests.swift */,
-				ED783446241BBF0400CF2334 /* Info.plist */,
+				ED78342D241BBF0100CF2334 /* AppDelegate.swift */,
+				ED783436241BBF0400CF2334 /* Assets.xcassets */,
+				ED783438241BBF0400CF2334 /* LaunchScreen.storyboard */,
+				ED78343B241BBF0400CF2334 /* Info.plist */,
 			);
-			path = SkyengTestTests;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDD7785C241C123500FEB437 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EDD77857241C0DBD00FEB437 /* WordsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EDD7785D241C125E00FEB437 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDD7785E241C127A00FEB437 /* Word.swift */,
+				EDD77860241C2DE000FEB437 /* Meaning.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		ED1AE40E241EA2120034C8E3 /* SkyengTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1AE416241EA2120034C8E3 /* Build configuration list for PBXNativeTarget "SkyengTestTests" */;
+			buildPhases = (
+				306320137FDEEDE6A863466E /* [CP] Check Pods Manifest.lock */,
+				ED1AE40B241EA2120034C8E3 /* Sources */,
+				ED1AE40C241EA2120034C8E3 /* Frameworks */,
+				ED1AE40D241EA2120034C8E3 /* Resources */,
+				8150C3D61F277555325A0481 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1AE415241EA2120034C8E3 /* PBXTargetDependency */,
+			);
+			name = SkyengTestTests;
+			productName = SkyengTestTests;
+			productReference = ED1AE40F241EA2120034C8E3 /* SkyengTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		ED783429241BBF0000CF2334 /* SkyengTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED783449241BBF0400CF2334 /* Build configuration list for PBXNativeTarget "SkyengTest" */;
 			buildPhases = (
+				EA3111BC8A3D31FD8C67A580 /* [CP] Check Pods Manifest.lock */,
 				ED783426241BBF0000CF2334 /* Sources */,
 				ED783427241BBF0000CF2334 /* Frameworks */,
 				ED783428241BBF0000CF2334 /* Resources */,
@@ -119,24 +278,6 @@
 			productReference = ED78342A241BBF0000CF2334 /* SkyengTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ED78343F241BBF0400CF2334 /* SkyengTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ED78344C241BBF0400CF2334 /* Build configuration list for PBXNativeTarget "SkyengTestTests" */;
-			buildPhases = (
-				ED78343C241BBF0400CF2334 /* Sources */,
-				ED78343D241BBF0400CF2334 /* Frameworks */,
-				ED78343E241BBF0400CF2334 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ED783442241BBF0400CF2334 /* PBXTargetDependency */,
-			);
-			name = SkyengTestTests;
-			productName = SkyengTestTests;
-			productReference = ED783440241BBF0400CF2334 /* SkyengTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,12 +288,12 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Babich Ivan";
 				TargetAttributes = {
-					ED783429241BBF0000CF2334 = {
-						CreatedOnToolsVersion = 11.3.1;
-					};
-					ED78343F241BBF0400CF2334 = {
+					ED1AE40E241EA2120034C8E3 = {
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = ED783429241BBF0000CF2334;
+					};
+					ED783429241BBF0000CF2334 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
@@ -170,57 +311,137 @@
 			projectRoot = "";
 			targets = (
 				ED783429241BBF0000CF2334 /* SkyengTest */,
-				ED78343F241BBF0400CF2334 /* SkyengTestTests */,
+				ED1AE40E241EA2120034C8E3 /* SkyengTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		ED1AE40D241EA2120034C8E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED783428241BBF0000CF2334 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1AE3FC241E59D70034C8E3 /* MeaningCell.xib in Resources */,
 				ED78343A241BBF0400CF2334 /* LaunchScreen.storyboard in Resources */,
+				ED1AE406241E5EFF0034C8E3 /* LoadingCell.xib in Resources */,
+				ED1AE3F0241D68480034C8E3 /* DetailVC.xib in Resources */,
+				ED1AE40A241E790D0034C8E3 /* README.md in Resources */,
 				ED783437241BBF0400CF2334 /* Assets.xcassets in Resources */,
 				ED783435241BBF0100CF2334 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED78343E241BBF0400CF2334 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		306320137FDEEDE6A863466E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyengTestTests-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		8150C3D61F277555325A0481 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyengTestTests/Pods-SkyengTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyengTestTests/Pods-SkyengTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyengTestTests/Pods-SkyengTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3111BC8A3D31FD8C67A580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyengTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		ED1AE40B241EA2120034C8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1AE412241EA2120034C8E3 /* SkyengTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED783426241BBF0000CF2334 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED783432241BBF0100CF2334 /* ViewController.swift in Sources */,
+				ED783432241BBF0100CF2334 /* WordsVC.swift in Sources */,
+				ED1AE3F2241D7CDD0034C8E3 /* UIImageView_ext.swift in Sources */,
+				EDD77858241C0DBD00FEB437 /* WordsService.swift in Sources */,
+				ED1AE3FB241E59D70034C8E3 /* MeaningCell.swift in Sources */,
+				EDD7785F241C127A00FEB437 /* Word.swift in Sources */,
+				ED1AE3E8241CBD100034C8E3 /* JSONDecoder_ext.swift in Sources */,
+				ED1AE3EE241D40500034C8E3 /* UIApplication_ext.swift in Sources */,
+				ED1AE3E5241C39760034C8E3 /* APIClient.swift in Sources */,
 				ED78342E241BBF0100CF2334 /* AppDelegate.swift in Sources */,
-				ED783430241BBF0100CF2334 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED78343C241BBF0400CF2334 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED783445241BBF0400CF2334 /* SkyengTestTests.swift in Sources */,
+				ED1AE405241E5EFF0034C8E3 /* LoadingCell.swift in Sources */,
+				ED783451241BC75C00CF2334 /* DetailVC.swift in Sources */,
+				ED1AE3EA241CD2070034C8E3 /* Config.swift in Sources */,
+				ED1AE3EC241D402A0034C8E3 /* Alert.swift in Sources */,
+				EDD77861241C2DE000FEB437 /* Meaning.swift in Sources */,
+				ED1AE3E3241C38E20034C8E3 /* APIRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ED783442241BBF0400CF2334 /* PBXTargetDependency */ = {
+		ED1AE415241EA2120034C8E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ED783429241BBF0000CF2334 /* SkyengTest */;
-			targetProxy = ED783441241BBF0400CF2334 /* PBXContainerItemProxy */;
+			targetProxy = ED1AE414241EA2120034C8E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -244,6 +465,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		ED1AE417241EA2120034C8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF17402BF5B49628FC02165 /* Pods-SkyengTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TNLR87AB6;
+				INFOPLIST_FILE = SkyengTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Babich.SkyengTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyengTest.app/SkyengTest";
+			};
+			name = Debug;
+		};
+		ED1AE418241EA2120034C8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2F93339850C61D32A8DFA1 /* Pods-SkyengTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TNLR87AB6;
+				INFOPLIST_FILE = SkyengTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Babich.SkyengTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyengTest.app/SkyengTest";
+			};
+			name = Release;
+		};
 		ED783447241BBF0400CF2334 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -340,6 +603,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -360,11 +624,13 @@
 		};
 		ED78344A241BBF0400CF2334 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413CC5BDE48DD0A16FE68765 /* Pods-SkyengTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TNLR87AB6;
 				INFOPLIST_FILE = SkyengTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +644,13 @@
 		};
 		ED78344B241BBF0400CF2334 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293C379CFA80A5775013F015 /* Pods-SkyengTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TNLR87AB6;
 				INFOPLIST_FILE = SkyengTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,53 +662,18 @@
 			};
 			name = Release;
 		};
-		ED78344D241BBF0400CF2334 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5TNLR87AB6;
-				INFOPLIST_FILE = SkyengTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Babich.SkyengTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyengTest.app/SkyengTest";
-			};
-			name = Debug;
-		};
-		ED78344E241BBF0400CF2334 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5TNLR87AB6;
-				INFOPLIST_FILE = SkyengTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Babich.SkyengTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyengTest.app/SkyengTest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		ED1AE416241EA2120034C8E3 /* Build configuration list for PBXNativeTarget "SkyengTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1AE417241EA2120034C8E3 /* Debug */,
+				ED1AE418241EA2120034C8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ED783425241BBF0000CF2334 /* Build configuration list for PBXProject "SkyengTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -455,15 +688,6 @@
 			buildConfigurations = (
 				ED78344A241BBF0400CF2334 /* Debug */,
 				ED78344B241BBF0400CF2334 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED78344C241BBF0400CF2334 /* Build configuration list for PBXNativeTarget "SkyengTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ED78344D241BBF0400CF2334 /* Debug */,
-				ED78344E241BBF0400CF2334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

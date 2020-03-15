@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailVC" customModule="SkyengTest" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="Qdm-6G-2ui" id="0pp-kv-VdI"/>
+                <outlet property="view" destination="KW1-oW-3Ne" id="eDW-1D-7rx"/>
+                <outlet property="wordLabel" destination="VCS-Gq-wgO" id="EVC-xE-egJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="KW1-oW-3Ne">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qdm-6G-2ui">
+                    <rect key="frame" x="0.0" y="153" width="414" height="743"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="AYq-Gr-m1R"/>
+                        <outlet property="delegate" destination="-1" id="XAb-F0-LkT"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Слово" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCS-Gq-wgO">
+                    <rect key="frame" x="16" y="99" width="382" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZe-0V-7kt">
+                    <rect key="frame" x="20" y="52" width="60" height="30"/>
+                    <state key="normal" title="Закрыть"/>
+                    <connections>
+                        <action selector="closeClicked" destination="-1" eventType="touchUpInside" id="PRy-qx-Mhb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="ZrG-A4-TRW" firstAttribute="trailing" secondItem="VCS-Gq-wgO" secondAttribute="trailing" constant="16" id="1FN-tk-BK1"/>
+                <constraint firstItem="NZe-0V-7kt" firstAttribute="leading" secondItem="ZrG-A4-TRW" secondAttribute="leading" constant="20" id="ElO-J8-sVF"/>
+                <constraint firstAttribute="bottom" secondItem="Qdm-6G-2ui" secondAttribute="bottom" id="JHH-Ve-cxK"/>
+                <constraint firstItem="Qdm-6G-2ui" firstAttribute="trailing" secondItem="KW1-oW-3Ne" secondAttribute="trailing" id="SpS-Pi-5rR"/>
+                <constraint firstItem="Qdm-6G-2ui" firstAttribute="leading" secondItem="KW1-oW-3Ne" secondAttribute="leading" id="Wl1-EJ-jcb"/>
+                <constraint firstItem="VCS-Gq-wgO" firstAttribute="leading" secondItem="ZrG-A4-TRW" secondAttribute="leading" constant="16" id="Xw5-xy-ZeU"/>
+                <constraint firstItem="VCS-Gq-wgO" firstAttribute="top" secondItem="ZrG-A4-TRW" secondAttribute="top" constant="55" id="bQr-tN-zp6"/>
+                <constraint firstItem="NZe-0V-7kt" firstAttribute="top" secondItem="ZrG-A4-TRW" secondAttribute="top" constant="8" id="f3d-yv-Hmb"/>
+                <constraint firstItem="Qdm-6G-2ui" firstAttribute="top" secondItem="VCS-Gq-wgO" secondAttribute="bottom" constant="24" id="hc2-Mv-7Vg"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZrG-A4-TRW"/>
+            <point key="canvasLocation" x="-62.318840579710148" y="269.19642857142856"/>
+        </view>
+    </objects>
+</document>

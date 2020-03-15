@@ -2,33 +2,28 @@
 //  SkyengTestTests.swift
 //  SkyengTestTests
 //
-//  Created by Бабич Иван Юрьевич on 13.03.2020.
+//  Created by Бабич Иван Юрьевич on 15.03.2020.
 //  Copyright © 2020 Babich Ivan. All rights reserved.
 //
 
-import XCTest
 @testable import SkyengTest
+import XCTest
 
 class SkyengTestTests: XCTestCase {
-
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testAllSpacesInSearch() {
+        let search = "  "
+        let wordsService = WordsServiceImpl(pageSize: 20)
+        let searchExpectation = expectation(description: #function)
+        
+        wordsService.searchWords(search, currentPage: 1) { words, _ in
+            XCTAssert((words ?? []).isEmpty)
+            searchExpectation.fulfill()
         }
+        
+        waitForExpectations(timeout: 5.0, handler: nil)
     }
-
 }
